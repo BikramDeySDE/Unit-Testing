@@ -1,6 +1,11 @@
 # Unit-Testing
 Unit Testing using mocha and chai
 
+# TO install 'mocha'
+use command : npm i --save-dev mocha
+
+# TO install 'chai'
+use command : npm i --save-dev chai
 
 # For Running the Test cases :
 
@@ -19,3 +24,8 @@ In case we have nested/sub-folder under the folder 'specs' =>
 "scripts": {
     "test": "mocha ./specs/**/*.specs.js"  
   }
+
+
+
+# To Run all the test cases
+use command : npm run test
