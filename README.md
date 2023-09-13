@@ -25,7 +25,26 @@ In case we have nested/sub-folder under the folder 'specs' =>
     "test": "mocha ./specs/**/*.specs.js"  
   }
 
+OR
+
+In case we want to test only those files which are in 'test-cases' folder
+
+"scripts": {
+    "test": "mocha 'test-cases/**/*.specs.js"  
+  }
+
 
 
 # To Run all the test cases
 use command : npm run test
+
+
+
+
+# Assert
+
+describe('{----name of the test suit----}', function(){
+    it('{----name of the test case----}', function(){
+        assert.{----name of the function through which wee need to test----}({----which parameter to be tested----},{----expected value we are expecting----});
+    }
+}
