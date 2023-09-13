@@ -6,19 +6,19 @@ Unit Testing using mocha and chai
 
 # Mocha
 
-## To install 'mocha'
+#### To install 'mocha'
 use command : 
 ```
 npm i --save-dev mocha
 ```
 
-## To install 'chai'
+#### To install 'chai'
 use command :
 ```
 npm i --save-dev chai
 ```
 
-## For Running the Test cases : (update this in 'package.json' file)
+#### For Running the Test cases : (update this in 'package.json' file)
 
 In case we have no nested/sub-folder under the folder 'specs' => It will test all the test cases written in the ".specs.js" files under the folder "specs"
 
@@ -48,7 +48,7 @@ In case we want to test only those files which are in 'test-cases' folder
 ```
 
 
-## To Run all the test cases
+#### To Run all the test cases
 use command :
 ```
 npm run test OR npm test
@@ -64,12 +64,12 @@ npm run test OR npm test
 
 # Chai
 
-## Importing 'chai'
+#### Importing 'chai'
 ```
 var chai = require("chai");
 ```
 
-## Importing 'assert', 'should' & 'expect'
+#### Importing 'assert', 'should' & 'expect'
 ```
 var assert = chai.assert;
 var should = chai.should();
@@ -77,7 +77,7 @@ var expect = chai.expect;
 ```
 
 
-## Assert
+#### Assert
 ```
 describe('{----name of the test suit----}', function(){
     it('{----name of the test case----}', function(){
@@ -87,7 +87,7 @@ describe('{----name of the test suit----}', function(){
 ```
 
 
-## Should
+#### Should
 ```
 describe('{----name of the test suit----}', function(){
     it('{----name of the test case----}', function(){
@@ -97,7 +97,7 @@ describe('{----name of the test suit----}', function(){
 ```
 
 
-## Expect
+#### Expect
 ```
 describe('{----name of the test suit----}', function(){
     it('{----name of the test case----}', function(){
@@ -117,13 +117,12 @@ describe('{----name of the test suit----}', function(){
 
 # Sinon
 
-## install 'sinon'
+#### install 'sinon'
 ```
 npm i --save-dev sinon
 ```
 
-## importing 'sinon'
+#### importing 'sinon'
 ```
 var sinon = require("sinon");
-```
 ```
