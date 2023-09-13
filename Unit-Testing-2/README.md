@@ -1,2 +1,0 @@
-#Mocha
-npm install mocha
