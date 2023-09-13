@@ -58,3 +58,13 @@ describe('{----name of the test suit----}', function(){
         {----which parameter to be tested----}.should.{----name of the function through which wee need to test----}({----expected value we are expecting----});
     }
 }
+
+
+
+# Expect
+
+describe('{----name of the test suit----}', function(){
+    it('{----name of the test case----}', function(){
+        expect.{----which parameter to be tested----}.to.{----name of the function through which wee need to test----}({----expected value we are expecting----});
+    }
+}
