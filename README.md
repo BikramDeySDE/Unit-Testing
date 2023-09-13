@@ -49,6 +49,14 @@ use command :
 npm run test OR npm test
 ```
 
+
+
+
+<br>
+
+
+
+
 # Importing 'chai'
 ```
 var chai = require("chai");
@@ -95,7 +103,6 @@ describe('{----name of the test suit----}', function(){
 
 
 
-<br>
 <br>
 
 
