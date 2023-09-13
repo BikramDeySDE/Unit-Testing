@@ -3,9 +3,9 @@ Unit Testing using mocha and chai
 
 # To install 'mocha'
 use command : 
-```
+``````````
 npm i --save-dev mocha
-```
+``````````
 
 # To install 'chai'
 use command :
