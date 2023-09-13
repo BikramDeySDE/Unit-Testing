@@ -36,7 +36,7 @@ In case we want to test only those files which are in 'test-cases' folder
 
 
 # To Run all the test cases
-use command : npm run test
+use command : npm run test OR npm test
 
 
 
