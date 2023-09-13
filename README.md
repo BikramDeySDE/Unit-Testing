@@ -11,11 +11,11 @@ use command : npm i --save-dev chai
 
 In case we have no nested/sub-folder under the folder 'specs' => It will test all the test cases written in the ".specs.js" files under the folder "specs"
 
-`
+```
 "scripts": {
     "test": "mocha ./specs/*.specs.js"  
   }
-`
+```
 
 OR
 
