@@ -52,7 +52,7 @@ npm run test OR npm test
 
 
 
-<br>
+---
 
 
 
@@ -103,7 +103,7 @@ describe('{----name of the test suit----}', function(){
 
 
 
-<br>
+---
 
 
 
