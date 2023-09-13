@@ -1,0 +1,15 @@
+{
+  "name": "unittestcases-1",
+  "version": "1.0.0",
+  "description": "first test cases using mocha and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./specs/*.specs.js"  
+  },
+  "author": "Bikram Dey",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0"
+  }
+}
