@@ -1,10 +1,10 @@
 # Unit-Testing
 Unit Testing using mocha and chai
 
-# TO install 'mocha'
+# To install 'mocha'
 use command : npm i --save-dev mocha
 
-# TO install 'chai'
+# To install 'chai'
 use command : npm i --save-dev chai
 
 # For Running the Test cases : (update this in 'package.json' file)
@@ -46,5 +46,15 @@ use command : npm run test OR npm test
 describe('{----name of the test suit----}', function(){
     it('{----name of the test case----}', function(){
         assert.{----name of the function through which wee need to test----}({----which parameter to be tested----},{----expected value we are expecting----});
+    }
+}
+
+
+
+# Should
+
+describe('{----name of the test suit----}', function(){
+    it('{----name of the test case----}', function(){
+        {----which parameter to be tested----}.should.{----name of the function through which wee need to test----}({----expected value we are expecting----});
     }
 }
