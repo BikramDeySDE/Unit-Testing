@@ -39,6 +39,13 @@ In case we want to test only those files which are in 'test-cases' folder
 use command : npm run test OR npm test
 
 
+# Importing 'chai'
+var chai = require("chai");
+
+# Importing 'assert', 'should' & 'expect'
+var assert = chai.assert;
+var should = chai.should();
+var expect = chai.expect;
 
 
 # Assert
