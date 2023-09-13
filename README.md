@@ -75,3 +75,20 @@ describe('{----name of the test suit----}', function(){
         expect.{----which parameter to be tested----}.to.{----name of the function through which wee need to test----}({----expected value we are expecting----});
     }
 }
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+## Sinon
+
+install 'sinon'
+-> npm i --save-dev sinon
+
+inporting 'sinon'
+-> var sinon = require("sinon");
