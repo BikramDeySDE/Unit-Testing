@@ -17,7 +17,7 @@ const Sinon = require("sinon");
 // test-suit
 describe("----------test suit for spy----------", function(){
 
-    // Reset the spy before each test case
+    // Reset the spy before each test case : If you are getting this error : Attempted to wrap {{Function-Name}} which is already wrapped apply the code stated above at the starting of the test suit to reset spy for each test cases
     beforeEach(function () {
         sinon.restore();
     });
@@ -66,6 +66,3 @@ describe("----------test suit for spy----------", function(){
     })
 
 })
-
-
-
