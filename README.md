@@ -132,6 +132,8 @@ describe('{----name of the test suit----}', function(){
 
 # Sinon
 
+## Spy
+
 #### install 'sinon'
 ```
 npm i --save-dev sinon
@@ -171,3 +173,8 @@ describe('{----name of the test suit----}', function(){
     }
 }
 ```
+
+
+---
+
+
