@@ -57,6 +57,19 @@ npm run test OR npm test
 
 
 
+#### If we want to run test for a single file and want to decide the file to be tested at the terminal
+* in 'package.json' file :
+  ```
+  "script": {
+    "test-single": "mocha"
+  }
+  ```
+* in terminal :
+  ```
+  npm run test-single -- {{File-Path}}
+  ```
+
+
 ---
 ---
 
