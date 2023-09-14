@@ -151,4 +151,23 @@ var sinon = require("sinon");
     });
 ```
 > **_NOTE:_** If you are getting this error : `Attempted to wrap {{Function-Name}} which is already wrapped`
-apply the code stated above at the starting of the test suit to reset spy for each test cases 
+apply the code stated above at the starting of the test suit to reset spy for each test cases
+
+
+#### How to use spy ?
+
+```
+describe('{----name of the test suit----}', function(){
+    it('{----name of the test case----}', function(){
+
+        // creat 'spy' object from 'sinon'
+        var spyObject = Sinon.spy({----the Object----,'{----function in the object to be spied----}');
+
+        // calling a fuction with parameter for executing 
+        {----the Object----}'{----function in the object to be executed----}({--parameters--})
+
+        // actual test case for spying the function
+        expect(spyObject.{----the function of sinon through which we are willing to test or spy----}).to.be.{--boolean (true/false)--};  
+    }
+}
+```
