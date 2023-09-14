@@ -126,3 +126,12 @@ npm i --save-dev sinon
 ```
 var sinon = require("sinon");
 ```
+
+
+#### To restore sinon
+```
+// Reset the spy before each test case
+    beforeEach(function () {
+        sinon.restore();
+    });
+```
