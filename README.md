@@ -128,10 +128,11 @@ var sinon = require("sinon");
 ```
 
 
-#### To restore sinon
+#### To reset spy / To restore sinon
 ```
 // Reset the spy before each test case
     beforeEach(function () {
         sinon.restore();
     });
 ```
+** If you are getting this error : Attempted to wrap {{Function-Name}} which is already wrapped, apply the code stated above at the starting of the test suit to reset spy for each test cases
