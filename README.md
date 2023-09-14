@@ -132,8 +132,6 @@ describe('{----name of the test suit----}', function(){
 
 # Sinon
 
-## Spy
-
 #### install 'sinon'
 ```
 npm i --save-dev sinon
@@ -143,6 +141,11 @@ npm i --save-dev sinon
 ```
 var sinon = require("sinon");
 ```
+
+
+
+
+## Spy
 
 
 #### To reset spy / To restore sinon
