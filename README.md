@@ -135,5 +135,5 @@ var sinon = require("sinon");
         sinon.restore();
     });
 ```
-* If you are getting this error : Attempted to wrap {{Function-Name}} which is already wrapped
+*_ If you are getting this error : Attempted to wrap {{Function-Name}} which is already wrapped
 apply the code stated above at the starting of the test suit to reset spy for each test cases *
