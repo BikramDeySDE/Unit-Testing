@@ -1,5 +1,3 @@
-// TESTING WITH "STUB"
-
 class Marks{
 
     // constructor
