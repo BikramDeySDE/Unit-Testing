@@ -142,7 +142,18 @@ npm i --save-dev sinon
 var sinon = require("sinon");
 ```
 
+#### To reset spy / To restore sinon
+```
+// Reset the spy before each test case
+    beforeEach(function () {
+        sinon.restore();
+    });
+```
+> **_NOTE:_** If you are getting this error : `Attempted to wrap {{Function-Name}} which is already wrapped`
+apply the code stated above at the starting of the test suit to reset spy for each test cases
 
+
+---
 
 
 ## Spy
@@ -181,3 +192,22 @@ describe('{----name of the test suit----}', function(){
 ---
 
 
+## Stub
+
+#### How to use stub ?
+
+```
+describe('{----name of the test suit----}', function(){
+    it('{----name of the test case----}', function(){
+
+        // creat 'stub' object from 'sinon'
+        var stubObject = Sinon.stub({----the Object----,'{----function in the object to be stubbed----}');
+
+        // here we are writting the logic for the condition that the function which is to be stubbed returns a particular value irrespective of any arguments
+        stubObject.{----function of stub through which we are willing to stub----}({--arguments/parameters--}).{returns/resolves/....}(----that particular value we want to return----);
+
+        // actual test case with execution of a function
+        expect(----the Object----.{----function in the object to be executed----}(--arguments/parameters--)).to.be.equal{--expected value--};  
+    }
+}
+```
