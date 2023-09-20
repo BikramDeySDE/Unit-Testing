@@ -180,7 +180,7 @@ describe('{----name of the test suit----}', function(){
         var spyObject = Sinon.spy({----the Object----,'{----function in the object to be spied----}');
 
         // calling a fuction with parameter for executing 
-        {----the Object----}'{----function in the object to be executed----}({--parameters--})
+        {----the Object----}.{----function in the object to be executed----}({--parameters--});
 
         // actual test case for spying the function
         expect(spyObject.{----the function of sinon through which we are willing to test or spy----}).to.be.{--boolean (true/false)--};  
