@@ -43,7 +43,7 @@ OR
 In case we want to test only those files which are in 'test-cases' folder
 ```
 "scripts": {
-    "test": "mocha 'test-cases/**/*.specs.js"  
+    "test": "mocha 'test-cases/**/*.specs.js'"  
   }
 ```
 
