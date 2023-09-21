@@ -267,6 +267,7 @@ npm i --save-dev chai-as-promised
 ```
 
 #### how to use 'chai-as-promised' ?
-* Step-1
+* ****Step-1****
+* **nncs**
 
 
