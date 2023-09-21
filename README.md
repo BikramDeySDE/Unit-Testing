@@ -253,4 +253,20 @@ describe('{----name of the test suit----}', function(){
 ---
 
 
-## 
+## Promise Testing
+
+#### When do we use 'promise' ?
+=> when our functions take time for getting the data from Database or third-party.
+
+#### Required Package :
+'chai-as-promised'
+
+#### install 'chai-as-promised' :
+```
+npm i --save-dev chai-as-promised
+```
+
+#### how to use 'chai-as-promised' ?
+* Step-1
+
+
