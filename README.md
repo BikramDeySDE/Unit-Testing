@@ -280,5 +280,6 @@ npm i --save-dev chai-as-promised
 * ###### Step-6 : to check if the function is getting the value within a particular time or not :
   use `this.timeout(----the time----);`
 
-  > **NOTE :** it is the time(in 'milisecond') within which you want to check if the fucntion is getting/returning the value or not  |
-  > **NOTE :** if you don't want to check the 'timeout', either you don;t use 'this.timeout()' function or you can use the 'timeout()' function as : `this.timeout(0);` 
+  > **NOTE :**
+  * it is the time(in 'milisecond') within which you want to check if the fucntion is getting/returning the value or not
+  * if you don't want to check the 'timeout', either you don;t use 'this.timeout()' function or you can use the 'timeout()' function as : `this.timeout(0);` 
