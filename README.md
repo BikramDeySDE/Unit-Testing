@@ -274,5 +274,7 @@ npm i --save-dev chai-as-promised
 * ###### Step-3 : use 'chaiAsPromised' variable
   ` chaiAsPromised.use(); `
 * ###### Step-4 : write the test cases using keyword ` eventually `
+* ###### Step-5 : to get the time-taken to get the result :
+  use keyword `return` at the begining of test-case-line (before 'expect')
 
 
