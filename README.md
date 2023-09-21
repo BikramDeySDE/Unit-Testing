@@ -211,3 +211,46 @@ describe('{----name of the test suit----}', function(){
     }
 }
 ```
+
+
+---
+
+
+## Mock
+
+#### How to use mock ?
+
+```
+describe('{----name of the test suit----}', function(){
+    it('{----name of the test case----}', function(){
+
+        // creat 'mock' object from 'sinon'
+        var mockObject = Sinon.mock({----the Object----);
+
+        // create 'expt' (i.e. expectation or expects) from mockObject
+        var expt = mockObject.expects('{----function in the object to be mocked----}');
+
+        // the actual test cases (here we can test for more than one conditions)
+        expt.{----function of stub through which we are willing to mock----}(--expected value--);
+
+        /*
+        *----here we can test for more than one conditions if we want----
+        *----expt.{----function of stub through which we are willing to mock----}(--expected value--);----
+        *----expt.{----function of stub through which we are willing to mock----}(--expected value--);----
+        */
+
+        // the above conditions will be checks for this execution (i.e. let's call/execute a function with certain arguments/parameters to perform the above checks)
+        ----the Object----.{----function in the object to be executed----}(--arguments/parameters--));
+
+        // let's verify : 'verify' the 'mockObject'
+        mockObject.verify();
+
+    }
+}
+```
+
+
+---
+
+
+## 
