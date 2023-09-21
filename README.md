@@ -268,11 +268,11 @@ npm i --save-dev chai-as-promised
 
 #### how to use 'chai-as-promised' ?
 * ###### Step-1 : install 'chai-as-promised'
-  ``` npm i --save-dev chai-as-promised ```
+  ` npm i --save-dev chai-as-promised `
 * ###### Step-2 : import 'chai-as-promised'
-  `` const chaiAsPromised = require('chai-as-promised'); ``
+  ` const chaiAsPromised = require('chai-as-promised'); `
 * ###### Step-3 : use 'chaiAsPromised' variable
-  chaiAsPromised.use();
-* 
+  ` chaiAsPromised.use(); `
+* ###### Step-4 : write the test cases using keyword ` eventually `
 
 
