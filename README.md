@@ -272,7 +272,7 @@ npm i --save-dev chai-as-promised
 * ###### Step-2 : import 'chai-as-promised'
   `const chaiAsPromised = require('chai-as-promised');`
 * ###### Step-3 : use 'chaiAsPromised' variable
-  `chaiAsPromised.use();`
+  `chai.use(chaiAsPromised);`
 * ###### Step-4 : write the test cases
   use keyword `eventually`
 * ###### Step-5 : to get the time-taken to get the result :
