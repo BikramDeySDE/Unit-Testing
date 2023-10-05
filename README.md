@@ -277,6 +277,15 @@ npm i --save-dev chai-as-promised
   use keyword `eventually`
 * ###### Step-5 : to get the time-taken to get the result :
   use keyword `return` at the begining of test-case-line (before 'expect')
+
+
+
+  ----
+  ----
+  ----
+  # Jest
+
+  
 * ###### Step-6 : to check if the function is getting the value within a particular time or not :
   use `this.timeout(----the time----);`
 
