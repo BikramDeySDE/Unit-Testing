@@ -296,6 +296,9 @@ npm i --save-dev chai-as-promised
 
 
 ## Jest
+
+> **NOTE :** Here we will follow the filename for test-cases : *.test.js 
+
 #### To install 'jest'
 use command : 
 ```
