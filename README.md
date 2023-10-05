@@ -303,3 +303,15 @@ npm install D jest
 ```
 
 > **NOTE :** 'D' symbolizes that we have dependencies on it
+
+
+#### For Running the Test cases : (update this in 'package.json' file)
+
+In case we have no nested/sub-folder under the folder 'specs' => It will test all the test cases written in the ".specs.js" files under the folder "specs"
+
+```
+"scripts": {
+    "test": "jest"  
+  }
+```
+
