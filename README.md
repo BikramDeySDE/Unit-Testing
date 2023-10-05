@@ -292,7 +292,7 @@ npm i --save-dev chai-as-promised
 ---
 ---
 
-# Unit Testing using mocha and chai
+# Unit Testing using 'Jest'
 
 
 ## Jest
