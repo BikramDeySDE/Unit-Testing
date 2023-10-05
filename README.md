@@ -292,3 +292,10 @@ npm i --save-dev chai-as-promised
   # Jest
 
   
+#### To install 'jest'
+use command : 
+```
+npm install D jest
+```
+
+> **NOTE :** 'D' symbolizes that we have dependencies on it
