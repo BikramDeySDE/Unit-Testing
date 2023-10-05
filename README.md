@@ -324,3 +324,7 @@ npx jest --coverage
 ```
 
 
+
+#### Some important parts of assert statements
+1. toBe / not.toBe
+2. toEqual / not.toEqual
