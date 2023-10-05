@@ -1,10 +1,12 @@
 # Unit-Testing
-Unit Testing using mocha and chai
-
+---
+---
 ---
 ---
 
-# Mocha
+# Unit Testing using 'mocha' and 'chai'
+
+## Mocha
 
 #### To install 'mocha'
 use command : 
@@ -77,7 +79,7 @@ npm run test OR npm test
 
 
 
-# Chai
+## Chai
 
 #### Importing 'chai'
 ```
@@ -130,7 +132,7 @@ describe('{----name of the test suit----}', function(){
 
 
 
-# Sinon
+## Sinon
 
 #### install 'sinon'
 ```
@@ -156,7 +158,7 @@ apply the code stated above at the starting of the test suit to reset spy for ea
 ---
 
 
-## Spy
+### Spy
 
 
 #### To reset spy / To restore sinon
@@ -192,7 +194,7 @@ describe('{----name of the test suit----}', function(){
 ---
 
 
-## Stub
+### Stub
 
 #### How to use stub ?
 
@@ -216,7 +218,7 @@ describe('{----name of the test suit----}', function(){
 ---
 
 
-## Mock
+### Mock
 
 #### How to use mock ?
 
@@ -253,7 +255,7 @@ describe('{----name of the test suit----}', function(){
 ---
 
 
-## Promise Testing
+### Promise Testing
 
 #### When do we use 'promise' ?
 => when our functions take time for getting the data from Database or third-party.
@@ -286,12 +288,14 @@ npm i --save-dev chai-as-promised
 
 
 
-  ----
-  ----
-  ----
-  # Jest
+---
+---
+---
 
-  
+# Unit Testing using mocha and chai
+
+
+## Jest
 #### To install 'jest'
 use command : 
 ```
