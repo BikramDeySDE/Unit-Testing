@@ -337,7 +337,8 @@ test("----name of the test case----", ()=>{
 ```
 
 * with 'Async-Await'
-** Code Template : 
+
+Code Template : 
 ```
 test("----name of the test case----", async ()=> {
   const data = await ----the Promise function which we want to test----();
