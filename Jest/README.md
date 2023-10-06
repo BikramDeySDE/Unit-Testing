@@ -29,6 +29,19 @@ use command :
 npx jest --coverage
 ```
 
+#### Testing a Promise
+
+Code template :
+
+```
+test("----name of the test case----", ()=>{
+  return ----promise function which we wan to test----().then((data)=>{
+    expect(data).toBe(----expected value----);
+  })
+}
+```
+
+
 #### Some important parts of assert statements
 1. toBe / not.toBe
 2. toEqual / not.toEqual
