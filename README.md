@@ -325,7 +325,7 @@ npx jest --coverage
 
 #### Testing a Promise
 
-*with 'Return-Then'
+* with 'Return-Then'
 Code template :
 
 ```
