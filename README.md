@@ -326,7 +326,7 @@ npx jest --coverage
 #### Testing a Promise
 
 * with 'Return-Then'
-Code template :
+** Code template :
 
 ```
 test("----name of the test case----", ()=>{
@@ -337,7 +337,7 @@ test("----name of the test case----", ()=>{
 ```
 
 * with 'Async-Await'
-Code Template : 
+** Code Template : 
 ```
 test("----name of the test case----", async ()=> {
   const data = await ----the Promise function which we want to test----();
