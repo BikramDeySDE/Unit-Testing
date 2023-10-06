@@ -32,4 +32,4 @@ npx jest --coverage
 #### Some important parts of assert statements
 1. toBe / not.toBe
 2. toEqual / not.toEqual
-3. toMatch / not.toMatch
+3. toMatch / not.toMatch    => for matching (comparing) Strings
