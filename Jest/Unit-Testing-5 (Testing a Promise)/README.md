@@ -1,4 +1,4 @@
-#### Testing a Promise
+## Testing a Promise
 
 Code template :
 
