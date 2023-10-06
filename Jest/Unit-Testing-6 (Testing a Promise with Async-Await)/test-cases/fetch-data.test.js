@@ -1,7 +1,7 @@
 const fetchData = require('../controllers/fetch-data');
 
 test("testig Promise with async-await", async ()=>{
-    const data = await fetchData();
+    const data = await fetchData();    // storing the return value of the fucntion 'fetchData' in variable 'data'
     expect(data).toBe('Hello from Bikram');
 })
 
