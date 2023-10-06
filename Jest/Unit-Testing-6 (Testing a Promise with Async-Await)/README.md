@@ -1,4 +1,4 @@
-#### Testing a Promise with Async-Await
+## Testing a Promise with Async-Await
 
 Code Template : 
 ```
